@@ -7,6 +7,7 @@
 	<title>Buying and selling cars and apartments</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -25,8 +26,153 @@
 								<li><a href="#">Page 3</a></li>
 							</ul>
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+								<li><a href="#sign-in" data-toggle="modal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+								<!--Форма входа пользователя на сайт-->
+								<div id="sign-in" class="modal fade sign-in">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+									<div class="modal-header">
+										<h2>Sign in</h2>
+									</div>
+									<div class="modal-body">
+										<form class="form-horizontal">
+											<fieldset>
+												<div class="form-group">
+													<label for="inputEmail" class="control-label col-xs-2">Email</label>
+													<div class="col-xs-10">
+														<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+													</div>
+												</div>
+												<div class="form-group">
+													<label for="inputPassword" class="control-label col-xs-2">Пароль</label>
+													<div class="col-xs-10">
+														<input type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-xs-offset-2 col-xs-10">
+														<div class="checkbox">
+															<label><input type="checkbox"> Запомнить</label>
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-xs-offset-2 col-xs-10">
+														<button type="submit" class="btn btn-primary">Войти</button>
+													</div>
+												</div>
+											</fieldset>
+										</form>
+									</div>
+								</div>
+								<!--Конец формы входа пользователя на сайт-->
+								<li><a href="#registr" data-toggle="modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+								<!--Форма регистрации пользователя на сайте - Модальное окно-->
+								<div id="registr" class="modal fade registr">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+									<div class="modal-header">
+										<h2>Регистрация</h2>
+									</div>
+									<div class="modal-body">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="lastName">Фамилия:</label>
+												<div class="col-xs-9">
+													<input type="text" class="form-control" id="lastName" placeholder="Введите фамилию">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="firstName">Имя:</label>
+												<div class="col-xs-9">
+													<input type="text" class="form-control" id="firstName" placeholder="Введите имя">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="fatherName">Отчество:</label>
+												<div class="col-xs-9">
+													<input type="text" class="form-control" id="fatherName" placeholder="Введите отчество">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3">Дата рождения:</label>
+												<div class="col-xs-3">
+													<select class="form-control">
+														<option>Дата</option>
+													</select>
+												</div>
+												<div class="col-xs-3">
+													<select class="form-control">
+														<option>Месяц</option>
+													</select>
+												</div>
+												<div class="col-xs-3">
+													<select class="form-control">
+														<option>Год</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="inputEmail">Email:</label>
+												<div class="col-xs-9">
+													<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="inputPassword">Пароль:</label>
+												<div class="col-xs-9">
+													<input type="password" class="form-control" id="inputPassword" placeholder="Введите пароль">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="confirmPassword">Подтвердите пароль:</label>
+												<div class="col-xs-9">
+													<input type="password" class="form-control" id="confirmPassword" placeholder="Введите пароль ещё раз">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="phoneNumber">Телефон:</label>
+												<div class="col-xs-9">
+													<input type="tel" class="form-control" id="phoneNumber" placeholder="Введите номер телефона">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3" for="postalAddress">Адрес:</label>
+												<div class="col-xs-9">
+													<textarea rows="3" class="form-control" id="postalAddress" placeholder="Введите адрес"></textarea>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="control-label col-xs-3">Пол:</label>
+												<div class="col-xs-2">
+													<label class="radio-inline">
+														<input type="radio" name="genderRadios" value="male"> Мужской
+													</label>
+												</div>
+												<div class="col-xs-2">
+													<label class="radio-inline">
+														<input type="radio" name="genderRadios" value="female"> Женский
+													</label>
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="col-xs-offset-3 col-xs-9">
+													<label class="checkbox-inline">
+														<input type="checkbox" value="agree">  Я согласен с <a href="#">условиями</a>.
+													</label>
+												</div>
+											</div>
+											<br />
+											<div class="form-group">
+												<div class="col-xs-offset-3 col-xs-9">
+													<input type="submit" class="btn btn-primary" value="Регистрация">
+													<input type="reset" class="btn btn-default" value="Очистить форму">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+								<!--Форма регистрации пользователя на сайте - Модальное окно-->
 							</ul>
 						</div>
 					</nav>
@@ -39,7 +185,7 @@
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore labore odio, obcaecati. Tempora neque cupiditate obcaecati corrupti consequatur quae, delectus fugiat saepe, ex, esse explicabo consectetur commodi ducimus, impedit ut!
 									</p>
 								</div>
-								<button type="button" class="btn btn-success"><strong><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  SIGN IN</strong></button>
+								<button type="button" class="btn btn-success"><strong><span class="glyphicon glyphicon-user" aria-hidden="true"><a href="#sign-in" data-toggle="modal"></span>  SIGN IN</strong></a></button>
 							</div>
 						</div>
 					</div>
@@ -220,7 +366,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
-				<div class="logo"><strong>BUY & SELL</strong></div>
+				<div class="logo footer-logo"><strong>BUY & SELL</strong></div>
 			</div>
 			<div class="col-lg-4">
 			</div>

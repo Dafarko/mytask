@@ -1,5 +1,5 @@
 .wrapper{
-    width: 100%;
+	width: 100%;
 }
 .header{
 	width: 100%;
@@ -19,6 +19,10 @@
 	margin-top: 50px;
 	font-size: 22px;
 }
+.btn-success a{
+	text-decoration:none;
+	color: inherit;
+}
 .appartment{
 	margin-top: 50px;
 }
@@ -30,4 +34,26 @@
 	height: 500px;
 	background: #337ab7;
 	margin-top: 50px;
+}
+.footer-logo{margin-top: 25px;}
+.sign-in, .registr{border-radius: 5px;}
+.sign-in{
+	width: 40%;
+	height: 50%;
+	margin: auto;
+	background: #fff;
+}
+.registr{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background: #fff;
+}
+@media screen and (max-width: 600px){
+	.sign-in{
+		width: 100%;
+		height: 50%;
+		margin: auto;
+		background: #fff;
+	}
 }

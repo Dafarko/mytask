@@ -1,0 +1,50 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="application/bootstrap.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\index.php;f18;13;43;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="application/core/DB.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\index.php;f18;3;41;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="application/views/;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\views\Codelobster0.php;f16;7;34;7;;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\views\template_view.php;f17;12;35;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="core/controller.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\bootstrap.php;f18;3;37;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="core/model.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\bootstrap.php;f18;1;32;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="core/route.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\bootstrap.php;f18;4;32;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="core/view.php;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\bootstrap.php;f18;2;31;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Controller;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\controller.php;f0;1;1;14;;;;vpos;;v;;r;;d17,1;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\controller.php;f1;6;2;9;;;;vpos;;v;;r;;d1,7;;b0,0;;m">
+</treenode>
+<treenode node="action_index;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\controller.php;f1;11;2;13;;;;vpos;;v;;r;;d1,12;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Controller_Main;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\controllers\.php;f0;1;1;7;;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\controllers\controller_main.php;f0;1;1;7;;;;vpos;;vController;;c;;r;;d0,2;;b0,0;;m">
+<treenode node="action_index;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\controllers\.php;f1;3;2;6;;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\controllers\controller_main.php;f1;3;2;6;;;;vpos;;v;;r;;d1,4;;b0,0;;m">
+</treenode>
+</treenode>
+<treenode node="Model;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\model.php;f0;1;1;6;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+<treenode node="get_data;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\model.php;f8;3;2;5;;;;vpos;;v;;r;;d1,4;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Model_Cars;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\models\Codelobster0.php;f0;1;1;3;;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\models\model_cars.php;f0;1;1;3;;;;vpos;;vModel;;c;;r;;d30,1;;b0,0;;m">
+</treenode>
+<treenode node="Route;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\route.php;f0;1;1;77;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+<treenode node="ErrorPage404;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\route.php;f1;70;5;76;;;;vpos;;v;;r;;d1,71;;b0,0;;m">
+</treenode>
+<treenode node="start;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\route.php;f8;3;2;68;;;;vpos;;v;;r;;d1,4;;b0,5;;m">
+<treenode node="application/controllers/;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\route.php;f12;42;36;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="application/models/;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\route.php;f12;34;31;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+</treenode>
+<treenode node="View;PHP:Class Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\view.php;f0;1;1;16;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+<treenode node="generate;PHP:Function Name;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\view.php;f1;5;2;15;;;;vpos;;v;;r;;d1,6;;b0,0;;mcontent_view;;ptemplate_view;;pdata;;p">
+<treenode node="application/views/;PHP:PHP Include;E:\Univer\ProgWeb\Open Server\OpenServer\domains\mytest\application\core\view.php;f11;14;29;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+</treenode>
+</treenode>
+</phptree>
+</codestructure>

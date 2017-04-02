@@ -22,9 +22,9 @@ class Route
 		}
 
 		// добавляем префиксы
-		$model_name = 'Model_'.$controller_name;
-		$controller_name = 'Controller_'.$controller_name;
-		$action_name = 'action_'.$action_name;
+		$model_name = $controller_name.'Model';
+		$controller_name = $controller_name.'Controller';
+		$action_name = 'action'.$action_name;
 
 		// подцепляем файл с классом модели (файла модели может и не быть)
 
@@ -44,10 +44,6 @@ class Route
 		}
 		else
 		{
-			/*
-			правильно было бы кинуть здесь исключение,
-			но для упрощения сразу сделаем редирект на страницу 404
-			*/
 			Route::ErrorPage404();
 		}
 		
@@ -70,10 +66,7 @@ class Route
 	
 	function ErrorPage404()
 	{
-        $host = 'http://'.$_SERVER['HTTP_HOST'].'/';
-		header('HTTP/1.1 404 Not Found');
-		header("Status: 404 Not Found");
-		header('Location:'.$host.'404');
+		echo 'The page is not found';        
     }
 }
 ?>

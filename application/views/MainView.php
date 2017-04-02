@@ -55,112 +55,6 @@
 							</div>
 						</div>
 						<!--Конец формы входа пользователя на сайт-->
-						<!--Форма регистрации пользователя на сайте - Модальное окно-->
-						<div id="registr" class="modal fade registr">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-
-							<div class="modal-header">
-								<h2>Регистрация</h2>
-							</div>
-							<div class="modal-body">
-								<form class="form-horizontal">
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="lastName">Фамилия:</label>
-										<div class="col-xs-9">
-											<input type="text" class="form-control" id="lastName" placeholder="Введите фамилию">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="firstName">Имя:</label>
-										<div class="col-xs-9">
-											<input type="text" class="form-control" id="firstName" placeholder="Введите имя">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="fatherName">Отчество:</label>
-										<div class="col-xs-9">
-											<input type="text" class="form-control" id="fatherName" placeholder="Введите отчество">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3">Дата рождения:</label>
-										<div class="col-xs-3">
-											<select class="form-control">
-												<option>Дата</option>
-											</select>
-										</div>
-										<div class="col-xs-3">
-											<select class="form-control">
-												<option>Месяц</option>
-											</select>
-										</div>
-										<div class="col-xs-3">
-											<select class="form-control">
-												<option>Год</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="inputEmailReg">Email:</label>
-										<div class="col-xs-9">
-											<input type="email" class="form-control" id="inputEmailReg" placeholder="Email">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="inputPasswordReg">Пароль:</label>
-										<div class="col-xs-9">
-											<input type="password" class="form-control" id="inputPasswordReg" placeholder="Введите пароль">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="confirmPassword">Подтвердите пароль:</label>
-										<div class="col-xs-9">
-											<input type="password" class="form-control" id="confirmPassword" placeholder="Введите пароль ещё раз">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="phoneNumber">Телефон:</label>
-										<div class="col-xs-9">
-											<input type="tel" class="form-control" id="phoneNumber" placeholder="Введите номер телефона">
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3" for="postalAddress">Адрес:</label>
-										<div class="col-xs-9">
-											<textarea rows="3" class="form-control" id="postalAddress" placeholder="Введите адрес"></textarea>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-xs-3">Пол:</label>
-										<div class="col-xs-2">
-											<label class="radio-inline">
-												<input type="radio" name="genderRadios" value="male"> Мужской
-											</label>
-										</div>
-										<div class="col-xs-2">
-											<label class="radio-inline">
-												<input type="radio" name="genderRadios" value="female"> Женский
-											</label>
-										</div>
-									</div>
-									<div class="form-group">
-										<div class="col-xs-offset-3 col-xs-9">
-											<label class="checkbox-inline">
-												<input type="checkbox" value="agree">  Я согласен с <a href="#">условиями</a>.
-											</label>
-										</div>
-									</div>
-									<br />
-									<div class="form-group">
-										<div class="col-xs-offset-3 col-xs-9">
-											<input type="submit" class="btn btn-primary" value="Регистрация">
-											<input type="reset" class="btn btn-default" value="Очистить форму">
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-						<!--Форма регистрации пользователя на сайте - Модальное окно-->
 					</div>
 				</nav>
 				<div class="container">
@@ -172,7 +66,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore labore odio, obcaecati. Tempora neque cupiditate obcaecati corrupti consequatur quae, delectus fugiat saepe, ex, esse explicabo consectetur commodi ducimus, impedit ut!
 								</p>
 							</div>
-							<button type="button" class="btn btn-success"><a href="#sign-in" data-toggle="modal"><strong><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  SIGN IN</strong></a></button>
+							<button type="button" class="btn btn-success"><a href="#sign-in" data-toggle="modal"><strong><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  Login</strong></a></button>
 						</div>
 					</div>
 				</div>

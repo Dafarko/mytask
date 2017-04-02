@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40880bbd-da4e-4172-91e6-6b31e927d755" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/CarsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/core/config.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/controller_main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/core/DB.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/model_cars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/main_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/template_view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mytest.clpprj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mytest_clcs.csprj" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/controller.php" afterPath="$PROJECT_DIR$/application/core/controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/model.php" afterPath="$PROJECT_DIR$/application/core/model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/route.php" afterPath="$PROJECT_DIR$/application/core/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/view.php" afterPath="$PROJECT_DIR$/application/core/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/bootstrap.php" afterPath="$PROJECT_DIR$/application/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/CarsController.php" afterPath="$PROJECT_DIR$/application/controllers/CarsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/MainController.php" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -78,17 +64,17 @@
         <entry file="file://$PROJECT_DIR$/application/core/controller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -97,8 +83,8 @@
       <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="293">
+              <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -107,8 +93,18 @@
       <file leaf-file-name="CarsModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/CarsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/CarsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-761">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -145,9 +141,10 @@
         <option value="$PROJECT_DIR$/application/core/controller.php" />
         <option value="$PROJECT_DIR$/application/core/model.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/application/bootstrap.php" />
         <option value="$PROJECT_DIR$/application/models/CarsModel.php" />
+        <option value="$PROJECT_DIR$/application/controllers/CarsController.php" />
         <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/application/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -222,6 +219,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,15 +345,15 @@
       <updated>1490282428941</updated>
       <workItem from="1490282430965" duration="1461000" />
       <workItem from="1491126152741" duration="5647000" />
-      <workItem from="1491131872431" duration="1716000" />
+      <workItem from="1491131872431" duration="4805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8824000" />
+    <option name="totallyTimeSpent" value="11913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="8" width="1378" height="780" extended-state="1" />
+    <frame x="3" y="8" width="1378" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,13 +502,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php" />
-    <entry file="file://$PROJECT_DIR$/application/controllers/CarsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DB.php" />
     <entry file="file://$PROJECT_DIR$/application/core/view.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,14 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/TemplateView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -525,31 +543,47 @@
     <entry file="file://$PROJECT_DIR$/application/core/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/CarsModel.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/CarsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-761">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="293">
+          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/CarsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>

@@ -8,13 +8,13 @@ class MainController extends Controller
         $this -> model = new Model();
         $this -> view = new View();
     }
-	function actionIndex()
+	function index()
 	{
-        $data = $this -> model -> selectMany();
+        //$data = $this -> model -> selectMany();
 		$this -> view -> generate('MainView.php', 'TemplateView.php');
 	}
-    public function show($id){
-        $class['action'] = 'Show';
+    public function show($id)
+    {
         $this -> model = new CarsModel();
 
         $data['articles'] = $this->CarsModel->getOneArticles(intval($id));
@@ -46,7 +46,7 @@ class MainController extends Controller
             $this->session->set_flashdata('Вы успешно удалилии информацию');
         }
         else{
-            Route::ErrorPage404();
+
         }
     }
 
